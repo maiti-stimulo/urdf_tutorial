@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<robot name="materials">
+<robot name="week_1">
 
   <link name="wheel_1">
     <visual>
@@ -24,8 +24,8 @@
  <joint name="wheel1_to_wheel_2" type="continuous">
     <parent link="wheel_1"/>
     <child link="wheel_2"/>
-    <axis xyz="0 1.5 0"/>
-    <origin xyz="0 0 0"/>
+    <axis xyz="0 1.57075 0"/>
+    <origin xyz="0 0 0.0675"/>
   </joint>
 
      <link name="wheel_3">
@@ -42,7 +42,7 @@
     <parent link="wheel_1"/>
     <child link="wheel_3"/>
     <axis xyz="0 -1.57075 0"/>
-    <origin xyz="0 0 0.2"/>
+    <origin xyz="0 0 0.0675"/>
   </joint>
 
 

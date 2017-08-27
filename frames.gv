@@ -1,0 +1,8 @@
+digraph G {
+"wheel_1" -> "wheel_2"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.212 Hz\nMost recent transform: 1503832850.362 ( 0.023 sec old)\nBuffer length: 4.896 sec\n"];
+"wheel_1" -> "wheel_3"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10.212 Hz\nMost recent transform: 1503832850.362 ( 0.023 sec old)\nBuffer length: 4.896 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1503832850.385"[ shape=plaintext ] ;
+ }->"wheel_1";
+}
