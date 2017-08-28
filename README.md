@@ -11,4 +11,6 @@ Em fa un error en el base frame, quan indico un base frame em fa una cosa rara i
 
 !(images/captura_2.png)
 
+> ![Update centroids](images/captura_2.png)  
+
 Quan 
