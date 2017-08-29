@@ -1,0 +1,19 @@
+<package>
+  <name>helix_urdf</name>
+  <version>0.3.0</version>
+
+  <description>This package contains the URDF of the dual-helix three-wheeled car</description>
+  <author email="maiti@stimulo.com">Miquel Pons</author>
+
+  <maintainer email="maiti@stimulo.com">Miquel Pons</maintainer>
+
+  <license>ToDO</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>roslaunch</build_depend>
+  <run_depend>joint_state_publisher</run_depend>
+  <run_depend>robot_state_publisher</run_depend>
+  <run_depend>rviz</run_depend>
+  <run_depend>xacro</run_depend>
+
+</package>

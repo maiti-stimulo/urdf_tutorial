@@ -1,2 +1,0 @@
-.
--DCATKIN_DEVEL_PREFIX=/home/maiti/urdf_tutorial/devel -DCMAKE_INSTALL_PREFIX=/home/maiti/urdf_tutorial/install -G Unix Makefiles
